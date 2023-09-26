@@ -225,6 +225,42 @@ Finaly, try to delete the object with the id one on the same link than before. Y
 }
 ```
 
+## 3.6 - Try your GET request
+
+Now, try to make a GET request on this link :
+And get information for the product with id 2
+
+`https://dummyjson.com/products/2`
+
+
+```
+{
+    "id":2,
+    "title":"iPhone X",
+    "description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+    "price":899,
+    "discountPercentage":17.94,
+    "rating":4.44,
+    "stock":34,
+    "brand":"Apple",
+    "category":"smartphones",
+    "thumbnail":"https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+    ,"images":[
+        "https://i.dummyjson.com/data/products/2/1.jpg",
+        "https://i.dummyjson.com/data/products/2/2.jpg",
+        "https://i.dummyjson.com/data/products/2/3.jpg",
+        "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+    ]
+},
+```
+
+# 3.7 - Try your first request with a variable
+
+Now, try to create a variable with the name `id` and the value `1`. Then, try to make a GET request on this link.
+
+You should see the same outpout than before.
+
+
 # Final step :
 
 Now try to create an API to and implement all the previous route. You're free to use all languages like Python, JavaScript etc...
