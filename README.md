@@ -123,3 +123,51 @@ With the same Link, try to search product by phone
 ```
 
 
+## 3.2.1 - Discover Query Params PART 2/2
+
+It's a very long response, why not trying to juste display the first occurence ? Try to use limit.
+Your outpout should seems like that:
+
+```
+{
+    "products":[
+        {
+            "id":1,
+            "title":"iPhone 9",
+            "description":"An apple mobile which is nothing like apple",
+            "price":549,
+            "discountPercentage":12.96,
+            "rating":4.69,
+            "stock":94,
+            "brand":"Apple",
+            "category":"smartphones",
+            "thumbnail":"https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+            "images":[
+                "https://i.dummyjson.com/data/products/1/1.jpg",
+                "https://i.dummyjson.com/data/products/1/2.jpg",
+                "https://i.dummyjson.com/data/products/1/3.jpg",
+                "https://i.dummyjson.com/data/products/1/4.jpg",
+                "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+                ]
+        }
+    ],
+    "total":4,
+    "skip":0,
+    "limit":1
+}
+```
+
+## 3.3 - Try your first POST request
+
+`https://dummyjson.com/products/add`
+
+On this link, try to add a product with the title: "BMW Pencil"
+The request must return a message in JSON format :
+
+```
+{
+    "id": 101,
+    "title": "BMW Pencil"
+}
+```
+
