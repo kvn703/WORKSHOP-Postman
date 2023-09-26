@@ -224,3 +224,55 @@ Finaly, try to delete the object with the id one on the same link than before. Y
     "deletedOn": "2023-02-27T16:53:17.285Z"
 }
 ```
+
+# Final step :
+
+Now try to create an API to and implement all the previous route. You're free to use all languages like Python, JavaScript etc...
+
+# Unit Tests
+
+## Create a collection
+
+Now you have create your own server. You should setup some unit - test. With Postman you can do some.
+To do so, go to
+`collection :`
+
+<img src="https://github.com/kvn703/WORKSHOP-Postman/blob/main/collection.png" width="200"/>
+
+Then, create a new collection :
+
+<img src="https://github.com/kvn703/WORKSHOP-Postman/blob/main/New.png" width="200"/>
+
+Fill all fields like you have seen before (urls etc...)
+
+## Set up Units tests
+
+Go to `Test` Tab :
+
+<img src="https://github.com/kvn703/WORKSHOP-Postman/blob/main/Tests.png" width="200"/>
+
+Check on the right some tests example :
+
+<img src="https://github.com/kvn703/WORKSHOP-Postman/blob/main/Example.png" width="200"/>
+
+Now, make some unit test for all routes you have create.
+
+- Your routes should always response a 200 sucess code
+- The reponse time should be < 400ms
+- You should verify the content of the response
+
+Finally, you should have 3 - 5 tests for every routes.
+
+Here some outputs example :
+
+<img src="https://github.com/kvn703/WORKSHOP-Postman/blob/main/TestsResults.png" width="500"/>
+
+Of course, all tests MUST BE in PASS status and none should fail.
+
+# FINALLY
+
+**Find how to EXPORT your Collection and send us via mail to check your tests**
+
+`kevin.nadarajah@epitech.eu` or `anatole.babin@epitech.eu`
+
+GOOD LUCK !
