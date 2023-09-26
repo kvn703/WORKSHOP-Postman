@@ -171,3 +171,56 @@ The request must return a message in JSON format :
 }
 ```
 
+## 3.4 - Try your first PUT request
+
+`https://dummyjson.com/products/`
+Now, try to update the product which have id one, with title: "iPhone Galaxy +1". You should see this outpout :
+
+```
+{
+    "id": 1,
+    "title": "iPhone Galaxy +1",
+    "price": 549,
+    "stock": 94,
+    "rating": 4.69,
+    "images": [
+        "https://i.dummyjson.com/data/products/1/1.jpg",
+        "https://i.dummyjson.com/data/products/1/2.jpg",
+        "https://i.dummyjson.com/data/products/1/3.jpg",
+        "https://i.dummyjson.com/data/products/1/4.jpg",
+        "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+    ],
+    "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+    "description": "An apple mobile which is nothing like apple",
+    "brand": "Apple",
+    "category": "smartphones"
+}
+```
+
+## 3.5 - Try your DELETE request
+
+Finaly, try to delete the object with the id one on the same link than before. You should see this outpout :
+
+```
+{
+    "id": 1,
+    "title": "iPhone 9",
+    "description": "An apple mobile which is nothing like apple",
+    "price": 549,
+    "discountPercentage": 12.96,
+    "rating": 4.69,
+    "stock": 94,
+    "brand": "Apple",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+    "images": [
+        "https://i.dummyjson.com/data/products/1/1.jpg",
+        "https://i.dummyjson.com/data/products/1/2.jpg",
+        "https://i.dummyjson.com/data/products/1/3.jpg",
+        "https://i.dummyjson.com/data/products/1/4.jpg",
+        "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+    ],
+    "isDeleted": true,
+    "deletedOn": "2023-02-27T16:53:17.285Z"
+}
+```
